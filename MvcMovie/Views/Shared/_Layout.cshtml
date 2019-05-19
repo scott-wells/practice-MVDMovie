@@ -21,9 +21,9 @@
 <body>
 
     <div class="header">
-        <div class="container">
+        <div class="container ">
             <div class="row">
-                <div class="col-lg-2 col-md-2 col-sm-3 col-xs-12 text-center">
+                <div class="col-lg-2 col-md-2 col-sm-3 col-xs-12 text-center pb-5">
                     <img src="~/images/nmtrd.png" alt="tax and revenue logo" class="img-responsive centered" />
                 </div>
             </div>
@@ -35,11 +35,10 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a asp-controller="Movies" asp-action="Index" class="navbar-brand"></a>
                 </div>
                 <div class="navbar-collapse collapse">
-                    <ul class="nav navbar-nav text-light">
-                        <li><a asp-area="" asp-controller="Home" asp-action="Index">TRD Home</a></li>
+                    <ul class="nav navbar-nav">
+                        <li class=" text-white"><a asp-area="" asp-controller="Home" asp-action="Index"><span class="glyphicon glyphicon-home" aria-hidden="true"></span> TRD Home</a></li>
                     </ul>
                 </div>
             </nav>
