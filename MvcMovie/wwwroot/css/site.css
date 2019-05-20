@@ -7,7 +7,7 @@ body {
 }
 
 .page-title {
-    font-size: 64px;
+    font-size: 60px;
     color: #16a1b8;
 }
 
@@ -22,6 +22,22 @@ body {
     margin-bottom: 30px;
 }
 
+.content > div {
+    max-width: 66%;
+}
+
+footer div > div {
+    border: 5px solid pink;
+    display: flex;
+}
+footer div p {
+    font-size: .9em;
+    display: inline-block;
+}
+
+footer div ul {
+    list-style-type: none;
+}
 .navbar-inverse .navbar-nav > li > a {
     color: white;
 }

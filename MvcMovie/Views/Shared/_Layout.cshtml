@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>@ViewData["Title"]</title>
-    
+ 
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
     <link href="//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,700italic,400,300,700" rel="stylesheet" type="text/css">
 
@@ -22,8 +22,8 @@
 
 <body>
 
-    <div class="header">
-        <div class="container ">
+
+        <div class="container header">
             <div class="row">
                 <div class="col-lg-2 col-md-2 col-sm-3 col-xs-12 text-center pb-5">
                     <img src="~/images/nmtrd.png" alt="tax and revenue logo" class="img-responsive centered" />
@@ -45,7 +45,7 @@
                 </div>
             </nav>
         </div>
-    </div>
+
         
 
         <partial name="_CookieConsentPartial" />
@@ -54,17 +54,22 @@
             @RenderBody()
 
             <footer>
+
                 <div class="container">
+                    
                     <hr />
-                    <p class="font-weight-bold">Copyright © Taxation & Revenue Department New Mexico 2013</p>
-                    <ul>
-                        <li><a asp-area="" asp-controller="Home" asp-action="Index">TRD Home</a></li>
-                        <li><a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy &amp; Security</a></li>
-                        <li><a asp-area="" asp-controller="Home" asp-action="Contact">Site Policies</a></li>
-                        <li><a asp-area="" asp-controller="Home" asp-action="Accessibility">Accessibility</a></li>
-                        <li><a asp-area="" asp-controller="Home" asp-action="About">About Us</a></li>
-                        <li><a asp-area="" asp-controller="Home" asp-action="Contact">Contact Us</a></li>
+                    <p>Copyright © Taxation & Revenue Department New Mexico 2013</p>
+                    <ul class="nav nav-pills pull-right">
+                        <li><a>TRD Home</a></li>
+                        <li><a>Privacy &amp; Security</a></li>
+                        <li><a>Site Policies</a></li>
+                        <li><a>Accessibility</a></li>
+                        <li><a>About Us</a></li>
+                        <li><a>Contact Us</a></li>
                     </ul>
+                    
+                    
+                   
                 </div>
             </footer>
         </div>
