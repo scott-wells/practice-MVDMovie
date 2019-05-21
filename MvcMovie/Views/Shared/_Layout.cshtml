@@ -26,7 +26,7 @@
         <div class="container header">
             <div class="row">
                 <div class="col-lg-2 col-md-2 col-sm-3 col-xs-12 text-center pb-5">
-                    <img src="~/images/nmtrd.png" alt="tax and revenue logo" class="img-responsive centered" />
+                    <a asp-controller="Movies" asp-action="Index"><img src="~/images/nmtrd.png" alt="tax and revenue logo" class="img-responsive centered" /></a>   
                 </div>
             </div>
             <nav class="navbar navbar-inverse">
@@ -40,7 +40,7 @@
                 </div>
                 <div class="navbar-collapse collapse">
                     <ul class="nav navbar-nav">
-                        <li class="nav-links text-light"><a asp-area="" asp-controller="Home" asp-action="Index"><span class="glyphicon glyphicon-home" aria-hidden="true"></span> TRD Home</a></li>
+                        <li class="nav-links text-light"><a asp-area="" asp-controller="Movies" asp-action="Index"><span class="glyphicon glyphicon-home" aria-hidden="true"></span> MVDMovies</a></li>
                     </ul>
                 </div>
             </nav>
@@ -60,7 +60,7 @@
                     <hr />
                     <p>Copyright © Taxation & Revenue Department New Mexico 2013</p>
                     <ul class="nav nav-pills pull-right">
-                        <li><a asp-controller="Home" asp-action="Index">TRD Home</a></li>
+                        <li><a asp-controller="Movies" asp-action="Index">MVDMovies</a></li>
                         <li><a asp-controller="Home" asp-action="Privacy">Privacy &amp; Security</a></li>
                         <li><a asp-controller="Home" asp-action="Policies">Site Policies</a></li>
                         <li><a asp-controller="Home" asp-action="Accessibility">Accessibility</a></li>
